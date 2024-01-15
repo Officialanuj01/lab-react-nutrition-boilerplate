@@ -1,0 +1,95 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background: linear-gradient(to left ,rgb(192, 225, 255), rgb(193, 221, 255));
+  height: 100vh;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#data-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#food-block {
+  display: flex;
+  width: 60%;
+  border-radius: 10px;
+  align-items: center;
+  margin: 10px 20px;
+  padding: 10px;
+  background-color: white;
+  justify-content: space-evenly;
+}
+
+#food-block input,button {
+  padding: 10px;
+}
+
+#food-block img {
+  height: 80px;
+}
+
+#add-block input{
+  border: 2px solid #2100c9;
+  border-radius: 5px;
+}
+
+#add-block button {
+  color: white;
+  margin: 5px;
+  background-color: #2100c9;
+  border-radius: 5px;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 25px;
+  margin: 25px;
+}
+
+#search h1 {
+  padding: 10px 0px;
+  color: #2100c9;
+  font-weight: bold;
+}
+
+#search input {
+  width: 50%;
+  height: 40px;
+  margin: 0px 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #2100c9;
+}
+
+#calories {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 280px;
+  margin: 20px;
+}
+
+#calories button {
+  background-color: #2100c9;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
